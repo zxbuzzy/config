@@ -1,0 +1,23 @@
+[general]
+import = [
+  "~/config/.config/alacritty/themes/kanagawa_wave.toml"
+]
+[font]
+size = 13.0
+
+[env]
+TERM = "xterm-256color"
+
+[font.normal]
+family = "MesloLGS Nerd Font Mono"
+
+[window]
+padding.x = 5
+padding.y = 5
+dynamic_title = false
+
+[terminal]
+shell.program = "/usr/bin/zsh"
+
+[cursor.style]
+shape = "Block"
